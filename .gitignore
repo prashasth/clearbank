@@ -1,0 +1,14 @@
+.env
+.env.swp
+*.swp
+*.swo
+node_modules/
+client/node_modules/
+server/node_modules/
+data/
+dist/
+client/dist/
+client/.vite/
+.DS_Store
+*.log
+npm-debug.log*
