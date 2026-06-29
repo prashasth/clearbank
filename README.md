@@ -11,7 +11,7 @@ Make sure you have these before the workshop:
 | [Node.js 18+](https://nodejs.org/) | Runs the backend server | `node -v` |
 | npm | Installs all dependencies (comes with Node) | `npm -v` |
 | [Git](https://git-scm.com/downloads) | To clone the repo | `git --version` |
-| An email address | Used for mission trigger emails (any provider works) | — |
+| A Gmail, Outlook, or Fastmail address | Missions use `+` subaddressing (e.g. `you+joel@gmail.com`) — must be a provider that supports it | — |
 
 > Vite, React, and all other packages are installed automatically via `npm install` — no manual installs needed.
 
