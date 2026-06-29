@@ -11,7 +11,7 @@ Make sure you have these before the workshop:
 | [Node.js 18+](https://nodejs.org/) | Runs the backend server | `node -v` |
 | npm | Installs all dependencies (comes with Node) | `npm -v` |
 | [Git](https://git-scm.com/downloads) | To clone the repo | `git --version` |
-| A Gmail address | Used for mission trigger emails | — |
+| An email address | Used for mission trigger emails (any provider works) | — |
 
 > Vite, React, and all other packages are installed automatically via `npm install` — no manual installs needed.
 
@@ -58,7 +58,7 @@ cd clearbank
 cp .env.example .env
 
 # 3. Open .env and set your email
-#    Change: BASE_EMAIL=your-real-email@gmail.com
+#    Change: BASE_EMAIL=your-email@example.com
 
 # 4. Install dependencies
 cd server && npm install
