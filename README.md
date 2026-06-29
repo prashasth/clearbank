@@ -81,6 +81,20 @@ cd ../client && npm run dev
 - Set `ADMIN_PIN` in `.env` to your chosen PIN
 - Verify your Descope project is created and noted
 - Pre-seed M0 completion so the M1 trigger email appears in inbox
+- Distribute `legacy-users.sample.csv` to attendees — they'll upload it during Mission 1
+
+## Legacy users CSV (Mission 1)
+
+Mission 1 asks attendees to upload a CSV of legacy bank accounts. A sample file is included in the repo at [`legacy-users.sample.csv`](legacy-users.sample.csv):
+
+```
+actor,displayName,password
+joel,Joel,ClearBank@2024
+alex,Alex,ClearBank@2024
+vicky,Vicky,ClearBank@2024
+```
+
+The trainer can customise passwords before the session. Attendees upload this file via the wizard — the server hashes the passwords and imports the accounts into Descope.
 
 ## Default admin PIN
 
