@@ -15,6 +15,38 @@ Make sure you have these before the workshop:
 
 > Vite, React, and all other packages are installed automatically via `npm install` — no manual installs needed.
 
+### Install Node.js & Git via command line
+
+**macOS** (using [Homebrew](https://brew.sh)):
+```bash
+# Install Homebrew if you don't have it
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Install Node.js and Git
+brew install node git
+```
+
+**Windows** (using [winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/)):
+```powershell
+winget install OpenJS.NodeJS
+winget install Git.Git
+```
+
+**Ubuntu / Debian Linux**:
+```bash
+sudo apt update
+sudo apt install -y git
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt install -y nodejs
+```
+
+Verify everything is ready:
+```bash
+node -v   # should print v18 or higher
+npm -v
+git --version
+```
+
 ## Attendee setup
 
 ```bash
