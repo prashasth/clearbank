@@ -4,9 +4,16 @@ Gamified Descope B2C training app for AFASA compliance.
 
 ## Prerequisites
 
-- [Node.js 18+](https://nodejs.org/) (check with `node -v`)
-- npm (comes with Node)
-- A Gmail address you can check during the workshop
+Make sure you have these before the workshop:
+
+| Tool | Why | Check |
+|------|-----|-------|
+| [Node.js 18+](https://nodejs.org/) | Runs the backend server | `node -v` |
+| npm | Installs all dependencies (comes with Node) | `npm -v` |
+| [Git](https://git-scm.com/downloads) | To clone the repo | `git --version` |
+| A Gmail address | Used for mission trigger emails | — |
+
+> Vite, React, and all other packages are installed automatically via `npm install` — no manual installs needed.
 
 ## Attendee setup
 
