@@ -10,6 +10,7 @@ import Transfer from './pages/Transfer.jsx';
 import AccountBalance from './pages/AccountBalance.jsx';
 import AdminInbox from './pages/AdminInbox.jsx';
 import Wizard from './pages/Wizard.jsx';
+import SdkExplorer from './pages/SdkExplorer.jsx';
 
 export default function App() {
   return (
@@ -33,6 +34,7 @@ export default function App() {
           } />
           <Route path="/admin/inbox" element={<AdminInbox />} />
           <Route path="/admin/wizard" element={<Wizard />} />
+          <Route path="/sdk-explorer" element={<SdkExplorer />} />
         </Routes>
       </BrowserRouter>
     </AuthProvider>
