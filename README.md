@@ -82,6 +82,7 @@ cd ../client && npm run dev
 - Verify your Descope project is created and noted
 - Pre-seed M0 completion so the M1 trigger email appears in inbox
 - Distribute `legacy-users.sample.csv` to attendees — they'll upload it during Mission 1
+- Point attendees to `sign-up-or-in-bank.json` for Mission 7 — they import this flow into Descope via **Flows → Import**
 
 ## Legacy users CSV (Mission 1)
 
